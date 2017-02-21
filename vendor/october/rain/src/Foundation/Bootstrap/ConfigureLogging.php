@@ -17,6 +17,19 @@ class ConfigureLogging extends ConfigureLoggingBase
     {
         $log->useFiles($app->storagePath().'/logs/system.log');
     }
+    /**
+     * Configure the Monolog handlers for the application.
+     *
+     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     * @param  \Illuminate\Log\Writer  $log
+     * @return void
+     * added by Dhruvil Gandhi:21feb2017
+     */
+    
+    protected function configureHandler(Application $app, Writer $log)
+    {
+        $log->useFiles($app->storagePath().'/logs/system.log');
+    }
 
     /**
      * Configure the Monolog handlers for the application.

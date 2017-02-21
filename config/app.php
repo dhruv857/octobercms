@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://45.55.51.138/october',
+    'url' => 'http://hello.dhruv.host/october',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'sXbnnKxAKJJUiCZl2QDsu7I81dSB8QGl',
+    'key' => 'qm1eRtBQoNECKBoFbP7xOf6NMKj6Pm5b',
 
     'cipher' => 'AES-256-CBC',
 

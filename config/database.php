@@ -58,7 +58,7 @@ return [
             'port'      => '3306',
             'database'  => 'october',
             'username'  => 'root',
-            'password'  => 'killX@9089',
+            'password'  => 'killX9089',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
